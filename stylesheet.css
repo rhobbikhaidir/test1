@@ -1,0 +1,95 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+li{
+    list-style: none;
+}
+/* HEADER */
+header{
+   background-image: url("https://static.wixstatic.com/media/5bfb6f_45fc9ef441504d6fa1ddbbc12c7d7bfd.jpg/v1/fill/w_1799,h_194,al_c,lg_1,q_80/5bfb6f_45fc9ef441504d6fa1ddbbc12c7d7bfd.webp"); 
+   width: 100%;
+    line-height: 60px;
+    display: block;
+    position: fixed;
+    top: 0px;
+    
+}
+.header-left {
+    float: left;
+}
+.header-right {
+   display: block;
+   text-align: right;
+}
+.header-right li{
+    position: relative;
+    display: inline-block;
+    margin: auto 15px;
+}
+.header-right a{
+    color: #fff;
+    padding: 3px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.692);
+    border-radius: 15px;
+    text-decoration: none;
+}
+/* VARIASI PADA BUTTON*/
+.header-right a:hover{
+    background-color: rgba(184, 212, 212, 0.7);   
+    transition: 0.2s;
+    padding: 3px 15px;
+    border-radius: 15px;
+}
+.menu:active{
+    position: relative;
+    top: 3px;
+} 
+/* BATAS VARIASI PADA BUTTON*/
+/* BATAS HEADER */
+
+/* MAIN */
+main{
+    text-align: center;
+}
+.title{
+    margin-top: 100px; 
+    color:firebrick;
+}
+
+#homepage {
+    height: 500px;
+    color: white;
+    padding: 10px;
+    background-color: darkcyan;
+}
+
+#events {
+    height: 500px;
+    color: white;
+    padding: 10px;
+    background-color: rgb(60, 104, 104);
+}
+#login {
+    height: 200px;
+    color: white;
+    padding: 10px;
+    background-color: rgb(6, 82, 117);
+}
+
+
+/* BATAS MAIN */
+
+/* FOOTER */
+footer{
+    background-color: black;
+    height: 80px;
+}
+/* BATAS FOOTER */
