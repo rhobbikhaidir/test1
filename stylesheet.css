@@ -63,7 +63,16 @@ main{
     margin-top: 100px; 
     color:firebrick;
 }
-
+<style>
+form {width:500px;margin:50px auto;}.search {         
+     padding:8px 15px; background: #f0f8ff;
+      border:2px solid #228B22;}.button {position:relative;left:-4px;         
+         padding:10px 15px; border:0px solid #008080;         
+         background-color: #FF7F50; 
+         color:#;
+         font-weight:bold;}.button:hover {background: #8B008B;        
+         color:#fafafa;}.button:active {background:#9ACD32;}
+</style>
 #homepage {
     height: 500px;
     color: white;
