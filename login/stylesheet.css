@@ -18,24 +18,25 @@ header {
     padding: 16px 10%;
     justify-content: space-between;
     display: flex;
-    background-color: rgb(176, 201, 255);
+    background-image: url("https://static.wixstatic.com/media/5bfb6f_45fc9ef441504d6fa1ddbbc12c7d7bfd.jpg/v1/fill/w_1799,h_194,al_c,lg_1,q_80/5bfb6f_45fc9ef441504d6fa1ddbbc12c7d7bfd.webp");
 }
 
 .menu a {
-    padding: 2px 20px;
+    padding: 2px 15px;
     cursor: pointer;
-    font-size: 19px;
+    font-size: 20px;
 }
 
 button {
     padding: 10px 22px;
-    background-color: rgb(72, 173, 255,1);
+    background-color: rgb(77, 94, 187);
     border: none;
     border-radius: 20px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    font-size: 14px;
 }
 
 button:hover {
-    background-color: rgb(72, 173, 255,0.7);
+    background-color: rgb(77, 94, 187, 0.6);
 }
