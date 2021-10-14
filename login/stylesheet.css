@@ -1,42 +1,103 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
+body {
     padding: 0;
-    
+    margin: 0;
+    background-image: url("https://static.wixstatic.com/media/5bfb6f_45fc9ef441504d6fa1ddbbc12c7d7bfd.jpg/v1/fill/w_1799,h_194,al_c,lg_1,q_80/5bfb6f_45fc9ef441504d6fa1ddbbc12c7d7bfd.webp"); 
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
 }
 
-main {
-    background-color: #e9f4ff;
+.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 120%;
 }
 
-a, button {
-    text-decoration: none;
+.box {
+    position: absolute;
+    width: 450px;
+    background-color: rgb(219, 214, 255);
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    box-shadow: 0 5px 10px 10px rgba(82, 78, 78, 0.842);
 }
 
-header {
-    align-items: center;
-    padding: 16px 10%;
-    justify-content: space-between;
-    display: flex;
-    background-image: url("https://static.wixstatic.com/media/5bfb6f_45fc9ef441504d6fa1ddbbc12c7d7bfd.jpg/v1/fill/w_1799,h_194,al_c,lg_1,q_80/5bfb6f_45fc9ef441504d6fa1ddbbc12c7d7bfd.webp");
+.bg {
+    background-image: url(img.jpg);
+    filter: blur(0.2px);
+    -webkit-filter: blur(1px);
+    background-size: cover;
+    padding: 110px 15px;
+    border-radius: 40px 40px 0 0;
+    #opacity: 0.2;
 }
 
-.menu a {
-    padding: 2px 15px;
-    cursor: pointer;
-    font-size: 20px;
+.header p {
+    font-size: 11px;
 }
 
-button {
-    padding: 10px 22px;
-    background-color: rgb(77, 94, 187);
-    border: none;
+.header {
+    font-size: x-small;
+    padding: 20px 15px;
+
+}
+
+
+
+.login-area {
+    text-align: center;
+    padding: 25px 45px 20px 45px;
+}
+
+.username, .password {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
     border-radius: 20px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgba(89, 139, 247, 0.658);
+    margin-bottom: 15px;
+    transition: ,5s;
+}
+
+.username::placeholder, .password::placeholder {
+    color: rgba(255, 255, 255, .7);
+}
+
+.username:focus, .password:focus {
+    background-color: rgba(89, 139, 247, 0.747);
+}
+
+.text {
     font-size: 14px;
 }
 
-button:hover {
-    background-color: rgb(77, 94, 187, 0.6);
+.submit {
+    width: 150px;
+    padding: 10px;
+    background: linear-gradient(to right, rgb(0, 162, 255), rgba(76, 0, 255, 0.877));
+    border-radius: 12px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 10px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #a48cc4;
+}
+
+a {
+    display: block;
+    font-size: x-small;
+    text-decoration: none;
+    color: rgba(55, 10, 114, 1);
+    margin-top: 10px;
 }
