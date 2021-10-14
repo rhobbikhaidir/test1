@@ -8,14 +8,20 @@ h1, h2, h3, h4, h5, h6, p, div {
 html {
     scroll-behavior: smooth;
 }
-
+a{
+    text-decoration: none;
+}
 li{
     list-style: none;
 }
+body{
+    background-image: url('image1_2.jpg');
+    background-size: cover;
+    background-attachment: fixed;    
+}
 /* HEADER */
 header{
-   background-image: url("https://static.wixstatic.com/media/5bfb6f_45fc9ef441504d6fa1ddbbc12c7d7bfd.jpg/v1/fill/w_1799,h_194,al_c,lg_1,q_80/5bfb6f_45fc9ef441504d6fa1ddbbc12c7d7bfd.webp"); 
-   width: 100%;
+    width: 100%;
     line-height: 60px;
     display: block;
     position: fixed;
@@ -39,7 +45,6 @@ header{
     padding: 3px 15px;
     border: 1px solid rgba(255, 255, 255, 0.692);
     border-radius: 15px;
-    text-decoration: none;
 }
 /* VARIASI PADA BUTTON*/
 .header-right a:hover{
@@ -50,41 +55,122 @@ header{
 }
 .menu:active{
     position: relative;
-    top: 3px;
+    top: 1.5px;
 } 
 /* BATAS VARIASI PADA BUTTON*/
 /* BATAS HEADER */
 
 /* MAIN */
 main{
-    text-align: center;
+   scroll-padding-block-start: 60px; 
 }
-.title{
-    margin-top: 100px; 
-    color:firebrick;
-}
-<style>
-form {width:500px;margin:50px auto;}.search {         
-     padding:8px 15px; background: #f0f8ff;
-      border:2px solid #228B22;}.button {position:relative;left:-4px;         
-         padding:10px 15px; border:0px solid #008080;         
-         background-color: #FF7F50; 
-         color:#;
-         font-weight:bold;}.button:hover {background: #8B008B;        
-         color:#fafafa;}.button:active {background:#9ACD32;}
-</style>
-#homepage {
+/* HOMEPAGE */
+#home {
     height: 500px;
-    color: white;
-    padding: 10px;
-    background-color: darkcyan;
 }
 
+/* TOPIK */
+.topik{
+    position: absolute;
+}
+.topik h3{
+    position: absolute;
+    left: 380px;
+    top: 130px;
+    color: #fff; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+.topik a{
+    display: block;
+    color: white;
+    font-family: "Lucida-Grande";
+    width:max-content;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0, 0.4);
+    position: absolute;
+    animation-duration: 2s;
+}
+.topik a:active{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.organisasi{
+    animation-name: organisasi;
+    left: 240px;
+    top: 200px;
+}
+@keyframes organisasi{
+    0% {opacity: 0; left: 465px; top: 130px;}
+    100% {left: 240px; top: 200px;}
+}
+.time{
+    animation-name: time;
+    left: 350px;
+    top: 200px;
+}
+@keyframes time{
+    0% {opacity: 0; left: 380px; top: 130px;}
+    100% {left: 350px; top: 200px;}
+}
+.kos{
+    left: 530px;
+    top: 200px;
+    animation-name: kos;
+}
+@keyframes kos{
+    0% {opacity: 0; left: 380px; top: 130px;}
+    100% {left: 530px; top: 200px;}
+}
+.skripsi{  
+    left: 180px;
+    top: 270px;
+    animation-name: skripsi;    
+}
+@keyframes skripsi{
+    0% {opacity: 0; left: 380px; top: 130px;}
+    100% {left: 180px; top: 270px;}
+}
+.pertemanan{
+    left: 280px;
+    top: 270px;
+    animation-name: pertemanan;
+}
+@keyframes pertemanan{
+    0% {opacity: 0; left: 380px; top: 130px;}
+    100% {left: 280px; top: 270px;}
+}
+.prestasi{
+    animation-name: prestasi;
+    left: 410px;
+    top: 270px;
+}
+@keyframes prestasi{
+    0% {opacity: 0; left: 380px; top: 130px;}
+    100% {left: 410px; top: 270px;}
+}
+.dan{
+    left: 530px;
+    top: 270px;
+    animation-name: dan;
+}
+@keyframes dan{
+    0% {opacity: 0; left: 380px; top: 130px;}
+    100% {left: 530px; top: 270px;}
+}   
+}
+/* BATASTOPIK */
+/* BATAS HOMEPAGE */
 #events {
-    height: 500px;
+    height: 100px;
     color: white;
     padding: 10px;
     background-color: rgb(60, 104, 104);
+}
+#events h1{
+    padding-top: 60px;
 }
 #login {
     height: 200px;
@@ -92,27 +178,13 @@ form {width:500px;margin:50px auto;}.search {
     padding: 10px;
     background-color: rgb(6, 82, 117);
 }
+
+
 /* BATAS MAIN */
 
 /* FOOTER */
 footer{
     background-color: black;
-    height: 100px;
-    width: auto;
-    padding-top: 40px;
-    color: #fafafa;
+    height: 80px;
 }
-.footer{
-    text-align: center;
-}
-.footer h1{
-    font-size: 11px;
-    float: left;
-}
-.footer-list li{
-    margin: 0 10px;
-    font-size: 10px;
-    float: left;
-}
-
 /* BATAS FOOTER */
