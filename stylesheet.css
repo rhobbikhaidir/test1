@@ -107,10 +107,12 @@ footer{
 }
 .footer h1{
     font-size: 11px;
+    float: left;
 }
 .footer-list li{
     margin: 0 10px;
     font-size: 10px;
+    float: left;
 }
 
 /* BATAS FOOTER */
