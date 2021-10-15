@@ -77,20 +77,22 @@ body {
 
 .submit {
     width: 150px;
-    padding: 10px;
+    padding: 10px 0.5px 10px 0.5px;
     background: linear-gradient(to right, rgb(0, 162, 255), rgba(76, 0, 255, 0.877));
     border-radius: 12px;
     font-weight: bold;
     color: white;
     border: none;
     outline: none;
-    margin: 10px;
+    margin: 12px 104px;
     transition: .2s;
     cursor: pointer;
+    font-size: 12px;
+    text-align: center;
 }
 
 .submit:hover {
-    background-color: #a48cc4;
+    background-color: #4b2779;
 }
 
 a {
