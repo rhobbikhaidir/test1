@@ -1,0 +1,28 @@
+@media (max-width: 1000px) {
+    .box {
+        width: 60%;
+        height: auto;
+    }
+
+    body {
+        height: auto;
+        width: auto;
+        padding: 20px 8px 8px 20px;
+    }
+
+    .submit {
+        margin: auto;
+    }
+
+    .header {
+        padding: 10px 10px;
+    }
+
+    .overlay {
+        height: 140%;
+    }
+
+    .box {
+        top: 70%;
+    }
+}
