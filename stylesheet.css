@@ -202,5 +202,18 @@ main{
 footer{
     background-color: black;
     height: 80px;
+    width: auto;
+    padding-top: 40px;
+    color: #fafafa;
+}
+.footer{
+    text-align: center;
+}
+.footer h1{
+    font-size: 11px;
+}
+.footer-list li{
+    margin: 0 10px;
+    font-size: 10px;
 }
 /* BATAS FOOTER */
