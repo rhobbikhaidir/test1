@@ -1,4 +1,4 @@
-@media all and (max-width: 1000px) {
+@media all and (max-width: 670px) {
   #events{
     width: 100%;
   }
@@ -22,7 +22,7 @@
   }
 }
 
-@media all and (max-width: 670px) {
+@media all and (max-width: 320px) {
   .header-right {
     display: none;
   }
